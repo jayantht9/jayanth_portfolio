@@ -9,10 +9,11 @@
 <body>
     <header id="hero">
         <div class="container hero-content">
-            <img src="https://ui-avatars.com/api/?name=Jayanth+Thota&background=005bea&color=fff&size=128" alt="Profile Photo" class="profile-photo">
+            <img src="https://ui-avatars.com/api/?name=Jayanth+Thota&background=005bea&color=fff&size=128" alt="Jayanth Thota - Software Developer" class="profile-photo">
             <h1>Jayanth Thota</h1>
             <h2 id="typing-title"></h2>
-            <p>Contact: <span class="copy" data-copy="Jayantht9@gmail.com">Jayantht9@gmail.com</span> | <span class="copy" data-copy="7396018219">7396018219</span></p>
+            <p class="hero-subtitle">Recent Computer Science Graduate | Full-Stack Developer | Problem Solver</p>
+            <p>📧 <span class="copy" data-copy="Jayantht9@gmail.com">Jayantht9@gmail.com</span> | 📱 <span class="copy" data-copy="7396018219">+91 7396018219</span></p>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -20,12 +21,14 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#links">Links</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <a href="#" class="btn resume-btn">Download Resume</a>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn resume-btn">Get In Touch</a>
+                <a href="https://github.com/jayantht9" target="_blank" class="btn secondary-btn">View GitHub</a>
+            </div>
         </div>
         <div class="animated-bg"></div>
     </header>
@@ -33,7 +36,31 @@
         <section id="about" class="section">
             <div class="about-card">
                 <h3>About Me</h3>
-                <p>To secure a challenging position in a reputed organization where I can apply my knowledge and skills as a recent graduate, while contributing to the growth of the company and gaining valuable Industry experience.</p>
+                <p>I am a passionate and dedicated Computer Science graduate from ISBM University with a strong foundation in software development and problem-solving. With hands-on experience in Python, Java, Spring Boot, and React JS, I have successfully completed internships in Machine Learning and Python development.</p>
+                <p>My technical expertise spans across full-stack development, database management, and modern web technologies. I am eager to contribute to innovative projects while continuously learning and growing in a dynamic technology environment.</p>
+                <div class="key-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎓</span>
+                        <div>
+                            <strong>Fresh Graduate</strong>
+                            <p>CGPA: 8.3/10</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">💼</span>
+                        <div>
+                            <strong>5 Months Experience</strong>
+                            <p>ML & Python Development</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🚀</span>
+                        <div>
+                            <strong>Ready to Contribute</strong>
+                            <p>Immediate Availability</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="education" class="section">
@@ -42,22 +69,27 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h4>ISBM University</h4>
-                        <p>Passout: 2023 | CGPA: 8.3</p>
+                        <h4>Bachelor's Degree - Computer Science</h4>
+                        <p><strong>ISBM University</strong> | Graduated: 2023</p>
+                        <p>CGPA: <strong>8.3/10</strong> (First Class with Distinction)</p>
+                        <div class="coursework">
+                            <strong>Key Coursework:</strong>
+                            <span class="course-tag">Object Oriented Programming</span>
+                            <span class="course-tag">Programming in Python</span>
+                            <span class="course-tag">Programming in C</span>
+                            <span class="course-tag">Compilers</span>
+                            <span class="course-tag">Data Structures</span>
+                            <span class="course-tag">Database Systems</span>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h4>Narayana Junior College</h4>
-                        <p>Intermediate (MPC) | CGPA: 8.75</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>Relevant Coursework</h4>
-                        <p>OOP, Python, C, Compilers</p>
+                        <h4>Intermediate (12th Grade)</h4>
+                        <p><strong>Narayana Junior College</strong></p>
+                        <p>Stream: Mathematics, Physics, Chemistry (MPC)</p>
+                        <p>CGPA: <strong>8.75/10</strong></p>
                     </div>
                 </div>
             </div>
@@ -111,53 +143,257 @@
             </div>
         </section>
         <section id="experience" class="section">
-            <h3>Experience</h3>
+            <h3>Professional Experience</h3>
             <div class="experience-cards">
                 <div class="exp-card">
-                    <h4>BIST Technologies</h4>
-                    <p><strong>Machine Learning Intern</strong></p>
-                    <p>Feb 2022 - Apr 2022 (3 months, Unpaid)</p>
+                    <div class="exp-header">
+                        <h4>Machine Learning Intern</h4>
+                        <span class="exp-duration">Feb 2022 - Apr 2022</span>
+                    </div>
+                    <p class="company-name">BIST Technologies</p>
+                    <ul class="exp-details">
+                        <li>Developed and implemented machine learning algorithms for data analysis</li>
+                        <li>Worked with Python libraries including NumPy, Pandas, and Scikit-learn</li>
+                        <li>Participated in data preprocessing and model evaluation processes</li>
+                        <li>Collaborated with senior developers on real-world ML projects</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
                 </div>
                 <div class="exp-card">
-                    <h4>Malikarjuna Infosys</h4>
-                    <p><strong>Python Developer Intern</strong></p>
-                    <p>May 2023 - July 2023 (2 months, Unpaid)</p>
+                    <div class="exp-header">
+                        <h4>Python Developer Intern</h4>
+                        <span class="exp-duration">May 2023 - July 2023</span>
+                    </div>
+                    <p class="company-name">Malikarjuna Infosys</p>
+                    <ul class="exp-details">
+                        <li>Developed web applications using Python and related frameworks</li>
+                        <li>Implemented database connectivity and data management solutions</li>
+                        <li>Participated in code reviews and followed software development best practices</li>
+                        <li>Contributed to debugging and testing of existing applications</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Web Development</span>
+                        <span class="tech-tag">Database</span>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="projects" class="section">
-            <h3>Projects</h3>
+            <h3>Featured Projects</h3>
             <div class="project-cards">
                 <div class="project-card">
-                    <h4>Real-Time Data Processing System for Weather Monitoring</h4>
-                    <button class="expand-btn">Details</button>
-                    <div class="project-details">A system to process and analyze weather data in real-time, providing insights and alerts for various weather conditions.</div>
+                    <div class="project-header">
+                        <h4>Real-Time Weather Monitoring System</h4>
+                        <div class="project-links">
+                            <a href="https://github.com/jayantht9" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-summary">A comprehensive real-time data processing system for weather monitoring and analysis</p>
+                    <button class="expand-btn">View Details</button>
+                    <div class="project-details">
+                        <h5>Project Overview:</h5>
+                        <p>Developed a robust real-time data processing system that monitors weather conditions, processes meteorological data, and provides actionable insights through an intuitive dashboard.</p>
+                        
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li>Real-time data ingestion from multiple weather APIs</li>
+                            <li>Data processing and analysis using Python</li>
+                            <li>Interactive dashboard for data visualization</li>
+                            <li>Alert system for extreme weather conditions</li>
+                            <li>Historical data storage and trend analysis</li>
+                        </ul>
+                        
+                        <h5>Technologies Used:</h5>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask/Django</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        
+                        <h5>Impact:</h5>
+                        <p>This project demonstrates my ability to work with real-time data, implement efficient algorithms, and create user-friendly interfaces for complex data systems.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h4>Student Management System</h4>
+                        <div class="project-links">
+                            <a href="https://github.com/jayantht9" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-summary">A full-stack web application for managing student records and academic information</p>
+                    <button class="expand-btn">View Details</button>
+                    <div class="project-details">
+                        <h5>Project Overview:</h5>
+                        <p>Built a comprehensive student management system with CRUD operations, user authentication, and role-based access control.</p>
+                        
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li>Student registration and profile management</li>
+                            <li>Grade tracking and report generation</li>
+                            <li>Admin dashboard for system management</li>
+                            <li>Secure user authentication and authorization</li>
+                            <li>Responsive design for mobile and desktop</li>
+                        </ul>
+                        
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h4>Personal Portfolio Website</h4>
+                        <div class="project-links">
+                            <a href="https://jayantht9.github.io/jayanth_portfolio/" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/jayantht9" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-summary">A responsive and interactive portfolio website showcasing my skills and projects</p>
+                    <button class="expand-btn">View Details</button>
+                    <div class="project-details">
+                        <h5>Project Overview:</h5>
+                        <p>Designed and developed a modern, responsive portfolio website with smooth animations and interactive elements.</p>
+                        
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li>Responsive design with mobile-first approach</li>
+                            <li>Smooth scrolling and animations</li>
+                            <li>Interactive skill bars and project showcases</li>
+                            <li>Contact form with validation</li>
+                            <li>SEO optimized and fast loading</li>
+                        </ul>
+                        
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="links" class="section">
-            <h3>Links</h3>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/thota-jayanth-b93870215/" target="_blank" class="social-icon linkedin" title="LinkedIn"></a>
-                <a href="https://github.com/jayantht9" target="_blank" class="social-icon github" title="GitHub"></a>
+        <section id="achievements" class="section">
+            <h3>Achievements & Certifications</h3>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎓</div>
+                    <h4>Academic Excellence</h4>
+                    <p>Graduated with <strong>8.3 CGPA</strong> from ISBM University</p>
+                    <p>Achieved <strong>8.75 CGPA</strong> in Intermediate (MPC)</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">💼</div>
+                    <h4>Professional Experience</h4>
+                    <p>Completed <strong>5 months</strong> of internship experience</p>
+                    <p>Worked on <strong>Machine Learning</strong> and <strong>Python Development</strong> projects</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🚀</div>
+                    <h4>Technical Skills</h4>
+                    <p>Proficient in <strong>8+ programming languages</strong> and frameworks</p>
+                    <p>Experience with <strong>Full-Stack Development</strong></p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🌟</div>
+                    <h4>Personal Projects</h4>
+                    <p>Developed <strong>3+ major projects</strong> showcasing diverse skills</p>
+                    <p>Active <strong>GitHub contributor</strong> with public repositories</p>
+                </div>
             </div>
-        </section>
-        <section id="hobbies" class="section">
-            <h3>Hobbies</h3>
-            <div class="hobbies-list">
-                <div class="hobby"><span>📚</span> Reading Books</div>
-                <div class="hobby"><span>🎮</span> Playing Games</div>
-                <div class="hobby"><span>✈️</span> Travelling</div>
+            
+            <div class="certifications">
+                <h4>Professional Links</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/thota-jayanth-b93870215/" target="_blank" class="social-link">
+                        <div class="social-icon linkedin"></div>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <a href="https://github.com/jayantht9" target="_blank" class="social-link">
+                        <div class="social-icon github"></div>
+                        <span>GitHub Portfolio</span>
+                    </a>
+                    <a href="https://jayantht9.github.io/jayanth_portfolio/" target="_blank" class="social-link">
+                        <div class="social-icon portfolio"></div>
+                        <span>Live Portfolio</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="interests">
+                <h4>Interests & Hobbies</h4>
+                <div class="hobbies-list">
+                    <div class="hobby"><span>📚</span> Reading Technical Books & Blogs</div>
+                    <div class="hobby"><span>💻</span> Open Source Contributions</div>
+                    <div class="hobby"><span>🎮</span> Gaming & Problem Solving</div>
+                    <div class="hobby"><span>✈️</span> Travelling & Exploring</div>
+                </div>
             </div>
         </section>
         <section id="contact" class="section">
-            <h3>Contact</h3>
-            <form id="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <h3>Let's Connect</h3>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h4>Get In Touch</h4>
+                    <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><span class="copy" data-copy="Jayantht9@gmail.com">Jayantht9@gmail.com</span></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p><span class="copy" data-copy="7396018219">+91 7396018219</span></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Available for opportunities across India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <div>
+                                <strong>Availability</strong>
+                                <p>Immediate joining available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
     <button id="scrollTopBtn" title="Go to top">↑</button>
